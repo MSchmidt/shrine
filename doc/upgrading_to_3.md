@@ -150,7 +150,7 @@ attacher.promote
 record.save # you need to persist the changes
 ```
 
-If you want the concurrenct-safe promotion with persistence, use the new
+If you want the concurrency-safe promotion with persistence, use the new
 `Attacher#atomic_promote` method.
 
 ```rb
